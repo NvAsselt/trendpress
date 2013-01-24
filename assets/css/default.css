@@ -308,10 +308,13 @@ nav#pagination {
 		width: auto; 
 		text-align: center;
 		margin: 0; }
-				
+		
 		nav#pagination ul li { 
 			display: inline-block;
-			list-style-type: none; }
+			list-style-type: none; 
+			zoom: 1;
+			*display: inline;
+			}
 		
 			nav#pagination ul li a { text-decoration: none; }
 			
